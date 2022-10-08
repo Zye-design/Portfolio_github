@@ -1,5 +1,3 @@
-# Portfolio_github
-My Personal Portfolio website
 
 # Zye-Portfolio
 This is my personal Portfolio webpage that showcase my work flow
