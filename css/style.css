@@ -511,6 +511,8 @@ form textarea{
 	}
 	.home{
 		height: 85vh;
+		padding: 0 4em ;
+		margin: 0;
 	}
 	.about{
 		grid-template-columns: 1fr;
@@ -556,6 +558,8 @@ form textarea{
 		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: center;
+		padding: 0 4em ;
+		margin: 0;
 	}
 
 	.copyright{
@@ -572,5 +576,7 @@ form textarea{
 @media (max-width: 500px){
 	.home{
 		background: none;
+		padding: 0 1em ;
+		margin-top: 0;
 	}
 }
