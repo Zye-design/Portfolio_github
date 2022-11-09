@@ -149,6 +149,10 @@ span{
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
+	padding: 0 8rem;
+	padding-left: 10em;
+	margin-top: 2rem;
+
 }
 .home-text h1{
 	margin: 20px 0;
