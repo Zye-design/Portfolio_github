@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zye design</title>
+    <!---custom css link--->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <style>
+      :root {
+        /** Color */
+        --bg-color: hsl(236, 80%, 4%);
+        --text-color: hsl(0, 0%, 100%);
+        --main-color: hsl(0, 80%, 61%);
+        --second-color: hsl(0, 0%, 50%);
+        --other-color: hsl(228, 22%, 9%);
+
+        /**
+  *typography 
+  */
+
+        --ff-open-sans: "Open Sans", sans-serif;
+        --Qucksand: "Quicksand", sans-serif;
+
+        --h1-font: 5.2rem;
+        --h2-font: 3.5rem;
+        --h3-font: 2rem;
+        --p-font: 1.1rem;
+
+        --fw-400: 400;
+        --fw-600: 600;
+
+        /**
+  *transition
+  */
+
+        --transition: 0.5s ease;
+
+        /**
+  *spacing
+  */
+
+        --section-padding: 50px;
+
+        /**
+*radius
+*/
+        --radius-10: 10px;
+        --radius-14: 14px;
+        --radius-18: 18px;
+
+        /**
+* Shadow
+*/
+        --shadow-1: 3px 3px 9px hsla(240, 23%, 69%, 0.2);
+        --shadow-2: 3px 3px 9px hsla(204, 92%, 59%, 0.3);
+      }
+
+      /*-----------------------------------*\
+        Reset  #BAAB91 #BAD0E7
+\*-----------------------------------*/
+
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Quicksand", sans-serif;
+        list-style: none;
+        text-decoration: none;
+        scroll-behavior: smooth;
+      }
+
+      section {
+        padding: 160px 16px 90px;
+      }
+
+      body {
+        background: var(--bg-color);
+        color: var(--text-color);
+      }
+
+      .btn-success {
+        display: inline-block;
+        padding: 14px 40px;
+        border-radius: 0.5rem;
+        font-size: 17px;
+        font-weight: 500;
+        background: var(--main-color);
+        color: var(--text-color);
+        border: 1px solid var(--main-color);
+        transition: all 0.4s ease;
+      }
+      .btn-success {
+        transform: scale(1.01) translateY(-5px);
+        background: transparent;
+        border: 1px solid var(--main-color);
+      }
+      .contact-form h2,
+      p {
+        font-size: 2rem;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        color: var(--text-color);
+        margin-top: 20%;
+      }
+
+      .contact-form p {
+        font-size: 1rem;
+        margin-top: 10px;
+      }
+
+      .contact-form span {
+        color: var(--main-color);
+      }
+
+      .contact-form .btn-success {
+        margin-left: 41.5%;
+        margin-top: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="contact-form" id="contact-form">
+      <h2>Thank You For reaching out to Zye<span>Design</span></h2>
+      <p>We would get back to you within 12 hours</p>
+      <a href="https://zye-portfolio.netlify.app/" class="btn-success"
+        >Go back to main site</a
+      >
+    </div>
+
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
